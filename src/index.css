@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	background-color: mintcream;
+}
+
+:root {
+	--pink: #f02770;
+	--green: #00d47d;
+	--blue: #1f9fff;
+}
+
+/* Card User */
+
+.customCard {
+	min-width: auto;
+	max-width: 40rem;
+	min-height: 10rem;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.cardImage {
+	max-width: 25%;
+	padding: 0.2em;
+	border-radius: 0.7em;
+}
+
+.textSection {
+	max-width: 60%;
+}
+
+.bagde {
+	border-radius: 6px;
+	letter-spacing: 1px;
+	padding: 0.21rem;
+	height: 1.2rem;
+	font-size: 0.6rem;
+	color: whitesmoke;
+}
+
+.free {
+	background-color: var(--green);
+}
+
+.basic {
+	background-color: var(--blue);
+}
+
+.premium {
+	background-color: var(--pink);
+}
+
+/* Details */
+
+.labels {
+	font-size: 0.6rem;
+}
+
+img {
+	object-fit: cover;
+}
